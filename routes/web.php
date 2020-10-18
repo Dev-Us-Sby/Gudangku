@@ -52,3 +52,5 @@ Route::prefix('/dashboard')->namespace('Dashboard')->middleware('auth')->group(f
         Route::get('/', 'BalanceController@index')->name('dashboard.balance.index');
     });
 });
+
+Route::get('/dulinan', 'Dashboard/DashboardController@dulinan');
