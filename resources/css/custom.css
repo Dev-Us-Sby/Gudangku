@@ -1,0 +1,41 @@
+.table-compact {
+    margin-bottom: 0;
+}
+
+.table-shrink tr td,
+.table-shrink tr th
+{
+    height: 30px !important;
+    padding: 2px 8px !important;
+}
+
+.table-hover tr:hover {
+    cursor: pointer;
+}
+
+.img-fw {
+    width: 100%;
+}
+
+.v-middle {
+    vertical-align: middle !important;
+}
+
+.card .card-header {
+    min-height: 60px;
+}
+
+.input-group-btn > .btn-search {
+    margin-top: -2px !important;
+    height: 31px !important;
+}
+
+.input-group-append > .btn-save {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.input-group-append > .btn-sm.btn-save {
+    padding-left: 12px;
+    padding-right: 12px;
+}
