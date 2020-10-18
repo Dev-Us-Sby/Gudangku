@@ -16,11 +16,3 @@ stateless Initial {
         )
     );
 }
-
-Widget Card(){
-    return Container(
-        child: Center(
-            child: Text("This is Body")
-        )
-    )
-}
