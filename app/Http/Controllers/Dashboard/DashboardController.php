@@ -28,11 +28,22 @@ class DashboardController extends Controller
     }
 
     public function dulinan(){
-        for($i = 1; $i =< 5; $i++){
+        for($i = 1; $i <= 5; $i++) {
             for($j = 0; $j < $i; $j++){
                 echo "*";
             }
             echo '<br>';
         }
     }
-}
+
+    public function generateRandomString($length = 152) {
+        $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
+    }
+    
+}   
