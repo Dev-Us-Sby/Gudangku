@@ -22,6 +22,16 @@ class UserTestSeeder extends Seeder
             'username' => 'customer'
         ]);
 
+        factory(User::class)->create([
+            'name' => 'Administrator 2',
+            'username' => 'admin'
+        ]);
+
+        factory(User::class)->create([
+            'name' => 'Customer 2',
+            'username' => 'customer'
+        ]);
+
         factory(User::class, 13);
     }
 }
