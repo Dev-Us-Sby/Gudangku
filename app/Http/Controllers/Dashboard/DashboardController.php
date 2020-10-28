@@ -34,7 +34,7 @@ class DashboardController extends Controller
             }
             echo '<br>';
         }
-        foradnwodaiowdoiajwdioajwod
+        'basdhashdaasd';
     }
 
     public function generateRandomString($length = 152) {
